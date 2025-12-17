@@ -13,7 +13,7 @@ export default function GlobalLayout() {
       {/* Main Content Area */}
       <div className="flex-1 flex flex-col lg:ml-64">
         {/* Mobile Header with Menu Button */}
-        <header className="lg:hidden sticky top-0 z-30 bg-white shadow-sm">
+        <header className="lg:hidden sticky top-0 z-30 bg-white overflow-hidden no-scrollbar shadow-sm">
           <div className="flex items-center p-4">
             <button
               onClick={() => setSidebarOpen(true)}
