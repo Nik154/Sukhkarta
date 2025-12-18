@@ -64,9 +64,33 @@ export default function AboutUs() {
       </style>
 
       <div
-        className="min-h-fit bg-cover bg-center bg-no-repeat overflow-hidden"
-        style={{ backgroundImage: "url('/sukhwatermark3.png')" }}
-      >
+  className="min-h-screen bg-cover bg-center bg-no-repeat overflow-hidden"
+  style={{
+    backgroundImage: "url('/sukhwatermark3.png')",
+    margin: 0,
+    padding: 0,
+        overflowX: "hidden",
+      }}
+    >
+      {/* Webkit scrollbar killer */}
+      <style>
+        {`
+          /* Chrome, Safari, Edge */
+          ::-webkit-scrollbar {
+            display: none;
+          }
+
+          /* Firefox */
+          html {
+            scrollbar-width: none;
+          }
+
+          body {
+            margin: 0;
+            overflow-x: hidden;
+      }
+    `}
+      </style>
         <div className="p-6 space-y-16 h-screen overflow-auto no-scrollbar">
 
           {/* Heading */}
