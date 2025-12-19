@@ -50,7 +50,7 @@ export default function Trading() {
               <img
                 src={p.image}
                 alt={p.title}
-                className="w-full h-48 object-cover rounded-md mb-3"
+                className="w-full h-96 object-fill rounded-md mb-3"
               />
   
               <h3 className="text-xl font-semibold">{p.title}</h3>

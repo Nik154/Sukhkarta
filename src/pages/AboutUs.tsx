@@ -206,11 +206,11 @@ export default function AboutUs() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
               <div><b>Welcome to:</b> Sukhkarta Enterprises</div>
               <div><b>Nature of Business:</b> Trading, Retail</div>
-              <div><b>Total Employees:</b> --</div>
+              {/* <div><b>Total Employees:</b> --</div> */}
               <div><b>GST Registration Date:</b> 25-08-2025</div>
               <div><b>Legal Status:</b> Proprietorship</div>
               <div><b>Annual Turnover:</b> --</div>
-              <div className="sm:col-span-2"><b>GST No:</b> ---</div>
+              <div ><b>GST No: </b>06AXVPJ1243N1Z0</div>
             </div>
           </div>
 
@@ -246,7 +246,7 @@ export default function AboutUs() {
               <div>
                 <p><b>Contact Person ( Owner ):</b> Puja Jha & Sourav Nagar</p>
                 <p><b>Email:</b> sukhkartaaenterprises@gmail.com</p>
-                <p><b>Phone:</b> +91 9999368077</p>
+                <p><b>Phone:</b> +91 9220406877</p>
               </div>
             </div>
           </div>

@@ -6,7 +6,7 @@ export default function Sidebar({ isOpen, onClose }) {
   const location = useLocation();
   const links = [
     { name: 'About Us', path: '/' },
-    { name: 'Artificial', path: '/artificial' },
+    // { name: 'Artificial', path: '/artificial' },
     { name: 'Trading', path: '/trading' },
     { name: 'HR Consultancy', path: '/hrconsultancy' },
   ];
