@@ -54,7 +54,7 @@ export default function Trading() {
               />
   
               <h3 className="text-xl font-semibold">{p.title}</h3>
-              <p className="text-green-600 font-bold text-lg mt-2">{p.price}</p>
+              {/* <p className="text-green-600 font-bold text-lg mt-2">{p.price}</p> */}
               <p className="text-gray-600 mt-2 text-sm">{p.desc}</p>
             </div>
           ))}

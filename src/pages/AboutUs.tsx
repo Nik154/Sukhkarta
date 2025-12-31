@@ -210,7 +210,7 @@ export default function AboutUs() {
               <div><b>GST Registration Date:</b> 25-08-2025</div>
               <div><b>Legal Status:</b> Proprietorship</div>
               <div><b>Annual Turnover:</b> --</div>
-              <div ><b>GST No: </b>06AXVPJ1243N1Z0</div>
+              {/* <div ><b>GST No: </b>06AXVPJ1243N1Z0</div> */}
             </div>
           </div>
 
@@ -249,6 +249,18 @@ export default function AboutUs() {
                 <p><b>Phone:</b> +91 9220406877</p>
               </div>
             </div>
+          </div>
+
+          {/* Copyright Section */}
+          <div className="mt-10 border-t border-gray-300 pt-4 text-center text-sm text-gray-700">
+            <p>
+              © {new Date().getFullYear()}{" "}
+              <span className="font-semibold">Sukhkarta Enterprises</span>.  
+              All rights reserved.
+            </p>
+            <p className="mt-1 text-xs text-gray-600">
+              Contact: menitish_bhaskar@yahoo.com
+            </p>
           </div>
 
         </div>
