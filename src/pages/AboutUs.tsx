@@ -207,10 +207,10 @@ export default function AboutUs() {
               <div><b>Welcome to:</b> Sukhkarta Enterprises</div>
               <div><b>Nature of Business:</b> Trading, Retail</div>
               {/* <div><b>Total Employees:</b> --</div> */}
-              <div><b>GST Registration Date:</b> 25-08-2025</div>
+              {/* <div><b>GST Registration Date:</b> 25-08-2025</div> */}
               <div><b>Legal Status:</b> Proprietorship</div>
               <div><b>Annual Turnover:</b> --</div>
-              {/* <div ><b>GST No: </b>06AXVPJ1243N1Z0</div> */}
+              <div ><b>GST No: </b>06AXVPJ1243N1Z0</div>
             </div>
           </div>
 
